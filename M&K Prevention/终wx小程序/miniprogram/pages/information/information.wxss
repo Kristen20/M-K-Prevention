@@ -1,0 +1,31 @@
+.view_tupian_wenzi{
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border-color: #fff;
+  border-bottom: rgb(88, 85, 85);
+}
+.pic1{
+  width: 65px;
+  height: 65px;
+}
+.title{
+  width: 200px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: column;
+  font-size: 32rpx;
+}
+.digest{
+  width:240px;
+   font-size: 27rpx;
+   word-break:break-all;
+   color: #7a7878;
+   border-bottom: thistle;
+}
+
+
+ 

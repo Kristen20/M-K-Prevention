@@ -1,0 +1,6 @@
+<button id="start" style="opacity: {{opacity}}" 
+disabled="{{disabled}}" bindtap="Intro" >start</button>
+
+<view class="intro" style="opacity:{{opacity2}}">{{intro}}</view>
+
+ 

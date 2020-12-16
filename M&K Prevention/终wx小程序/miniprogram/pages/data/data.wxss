@@ -1,0 +1,45 @@
+/* pages/data/data.wxss */
+page{
+  background-size: 220rpx;
+  background-image:url(https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2910877273,3758327270&fm=26&gp=0.jpg) ;
+ background-repeat: no-repeat ;
+ background-position: center;
+ background-size: cover;
+}
+
+.light_title{
+  font-size: medium;
+  font-weight: bold;
+  display: flex; /*设置显示样式**/
+  align-items: center; /**子view垂直居中*/
+  vertical-align: center; /**垂直居中*/
+  justify-content: center; /**内容居中*/
+  flex-direction: row;
+  margin-top: 50rpx;
+  color: white;
+}
+
+.light_content{
+  margin-left:50rpx;
+  margin-right:40rpx;
+  line-height: 80rpx;
+}
+
+.rule_title{
+  font-size: medium;
+  font-weight: bold;
+  display: flex; /*设置显示样式**/
+  align-items: center; /**子view垂直居中*/
+  vertical-align: center; /**垂直居中*/
+  justify-content: center; /**内容居中*/
+  flex-direction: row;
+  margin-top: 70rpx;
+  color: white;
+}
+
+
+.rule_content{
+  margin-left:50rpx;
+  margin-right:40rpx;
+  line-height: 80rpx;
+}

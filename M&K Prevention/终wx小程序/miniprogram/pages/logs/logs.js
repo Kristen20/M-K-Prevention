@@ -1,0 +1,50 @@
+// pages/MyCenter/logs/logs.js
+var util = require('../utils/utils.js')
+Page({
+  data: {
+    logs: [],
+    modalHidden: true,
+    toastHidden: true
+  },
+  onShow: function() {
+    wx.setNavigationBarTitle({
+      title: '学习记录'
+    })
+    this.getLogs()
+  },
+  set: function() {
+
+  },
+
+  //添加学习记录
+  getLogs: function() {
+    let logs = wx.getStorageSync('logs')
+    logs.forEach(function(item, index, arry) {
+      item.startTime = new Date(item.startTime).toLocaleString()
+    })
+    this.setData({
+      logs: logs
+    })
+  },
+  onLoad: function() {},
+  switchModal: function() {
+    this.setData({
+      modalHidden: !this.data.modalHidden
+    })
+  },
+  hideToast: function() {
+    this.setData({
+      toastHidden: true
+    })
+  },
+
+    //清除记录
+  clearLog: function(e) {
+    wx.setStorageSync('logs', [])
+    this.switchModal()
+    this.setData({
+      toastHidden: false
+    })
+    this.getLogs()
+  }
+})

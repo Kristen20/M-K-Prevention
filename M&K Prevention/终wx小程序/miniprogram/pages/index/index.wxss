@@ -1,0 +1,31 @@
+page{
+  background-color: azure;
+ background-size: 220rpx;
+  background-image:url(https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2910877273,3758327270&fm=26&gp=0.jpg) ;
+ background-repeat: no-repeat ;
+ background-position: center;
+ background-size: cover;
+}
+
+#start{
+  height: 90rpx;
+  top: 60%;
+  width: 60%;
+  color: rgb(44, 160, 238);
+  background-color: rgb(235, 243, 118);
+  margin-top:60rpx;
+  border: rgba(255, 255, );
+  text-align: center;
+  font-weight: bold;
+}
+
+.intro{
+   background-color:hsl(60, 100%, 85%);
+   height:180 rpx;
+   width:82%;
+   top:80%;
+   margin-left: 10%;
+   margin-top:20rpx ;
+   border-radius: 30 rpx;
+   line-height: 80rpx;
+}

@@ -1,0 +1,9 @@
+<!--pages/data/data.wxml-->
+<view class="light_title">测量方式</view>
+
+<view class="light_content">
+  <text> 根据测出的距离，大于40cm时亮绿灯，大于30cm小40cm时亮蓝灯，小于30cm时亮红灯，以提示同学及时调整坐姿。</text>
+</view>
+<view class="rule_title">积分规则</view>
+
+<view class="rule_content">亮红灯计0分，亮蓝灯加1分，亮绿灯计加2分,计入综合评分</view>

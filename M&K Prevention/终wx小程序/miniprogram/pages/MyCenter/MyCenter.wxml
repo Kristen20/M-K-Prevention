@@ -1,0 +1,16 @@
+<!--pages/MyCenter/MyCenter.wxml-->
+ 
+
+    <view class="title_score" bindtap="get" >综合评分</view>
+    <view class="input1">控制台显示数据{{num}}</view>
+
+
+    <view class="title_historyRecord" bindtap="toLogs" >学习记录</view>
+   
+    <view class="title_identity" bindtap="instruc">使用说明</view>
+
+  
+    <button class="authorize"  open-type="openSetting">打开个人数据权限</button> 
+
+
+

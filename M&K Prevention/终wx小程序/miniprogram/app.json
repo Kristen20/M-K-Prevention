@@ -1,0 +1,71 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/data/data",
+   
+    "pages/MyCenter/MyCenter",
+    
+    "pages/monitor/monitor",
+    "pages/logs/logs",
+    
+   
+    "pages/information/information", 
+   
+    
+    "pages/utils/utils",
+    "pages/out1/out1",
+    "pages/out2/out2",
+    "pages/out3/out3",
+    "pages/out4/out4",
+    "pages/out5/out5",
+    "pages/out6/out6"
+    
+  ],
+
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#1296db",
+    "navigationBarTitleText": "M&K Prevention",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
+  },
+
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#1296db",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "position": "bottom",
+    "list": [
+      {
+        "iconPath": "/image/homepage.png",   
+        "selectedIconPath": "/image/homepage(1).png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "iconPath": "/image/play.png",
+        "selectedIconPath": "/image/play(1).png",
+        "pagePath": "pages/monitor/monitor",
+        "text": "开始监测"
+      },
+      {
+        "iconPath": "/image/info.png",
+        "selectedIconPath": "/image/info(1).png",
+        "pagePath": "pages/information/information",
+        "text": "科学资讯"
+      },
+      {
+        "iconPath": "/image/me.png",
+        "selectedIconPath": "/image/me(1).png",
+        "pagePath": "pages/MyCenter/MyCenter",
+        "text": "个人中心"
+      } 
+    ] 
+  },
+
+  "sitemapLocation": "sitemap.json",
+  "debug":true
+ 
+ 
+}

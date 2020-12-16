@@ -1,0 +1,50 @@
+<view class="view_tupian_wenzi" bindtap="info1">
+      <image class="pic1" src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3838691756,1628498312&fm=26&gp=0.jpg" />
+      <view class="title">
+        <text>正圆肩驼背矫正操</text>
+        <text class="digest" bindtap="info1">正圆肩驼背是上交叉综合征最常见的症状，走进校园或公司办公区，80%以上的人群存在圆肩驼背的现象。</text>
+      </view>
+		</view>
+
+		<view class="view_tupian_wenzi" bindtap="info2">
+      <image class="pic1" src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2268006562,3609940574&fm=26&gp=0.jpg" />
+      <view class="title">
+        <text>瑜伽六体式 远离含胸驼背</text>
+        <text class="digest" bindtap="info2">学会这6个动作，打开肩部，预防含胸驼背</text>
+      </view>
+		</view>
+		
+		<view class="view_tupian_wenzi" bindtap="info3">
+      <image class="pic1" src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=1098544338,3214784859&fm=26&gp=0.jpg" />
+      <view class="title">
+        <text>如何保持正确的坐姿</text>
+        <text class="digest" bindtap="info3">长期不良坐姿会引发很多的问题，诸如颈椎病、肌无力，驼背等，给生活带来很大的麻烦。</text>
+      </view>
+		</view>
+		
+		<view class="view_tupian_wenzi" bindtap="info4">
+      <image class="pic1" src="https://exp-picture.cdn.bcebos.com/19587f20a7cd0c6ee6ac1e00fed7997bbaf4ddf0.jpg?x-bce-process=image%2Fformat%2Cf_jpg%2Fquality%2Cq_80" />
+      <view class="title">
+        <text>连续学习如何放松</text>
+        <text class="digest" bindtap="info4">在诸如期末备考的高压环境下，我们如何科学学习，有效放松呢？</text>
+      </view>
+		</view>
+		
+		<view class="view_tupian_wenzi" bindtap="info5">
+      <image class="pic1" src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2920703379,683872463&fm=26&gp=0.jpg" />
+      <view class="title">
+        <text>眼保健操图解</text>
+        <text class="digest" bindtap="info5">新版本的眼保健操按摩穴位有所不同，希望大家养成良好的用眼习惯，保护好眼睛。</text>
+      </view>
+		</view>
+		
+		<view class="view_tupian_wenzi" bindtap="info6">
+      <image class="pic1" src="https://exp-picture.cdn.bcebos.com/d47cb624d8e9ccd2886a4bec0e40102a05e2c9a0.jpg?x-bce-process=image%2Fquality%2Cq_80" />
+      <view class="title">
+        <text>简单的护眼小窍门</text>
+        <text class="digest" bindtap="info6">简单护眼，每天一遍，预防近视</text>
+      </view>
+    </view>
+
+
+ 

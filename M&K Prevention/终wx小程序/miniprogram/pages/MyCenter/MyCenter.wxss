@@ -1,0 +1,72 @@
+/* pages/MyCenter/MyCenter.wxss */
+page{
+  background-size: 220rpx;
+  background-image:url(https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2910877273,3758327270&fm=26&gp=0.jpg) ;
+ background-repeat: no-repeat ;
+ background-position: center;
+ background-size: cover;
+}
+ 
+
+.input1{
+  margin-top: -130rpx;
+  margin-left:80rpx;
+  width: 160rpx;
+}
+.title_score {
+  height: 400rpx;
+  width: 200rpx;
+  background-color: khaki;
+  margin-top: 40rpx;
+  margin-left:50rpx;
+  border-radius: 20rpx;
+  display: flex; /*设置显示样式**/
+  align-items: center; /**子view垂直居中*/
+  vertical-align: center; /**垂直居中*/
+  justify-content: center; /**内容居中*/
+  flex-direction: row;
+  font-weight: bold;
+}
+
+.title_historyRecord{
+  height: 400rpx;
+  width: 200rpx;  
+  background-color: rgb(190, 219, 252);
+  margin-top: -150rpx;
+  margin-left:280rpx;
+  border-radius: 20rpx;
+  display: flex; /*设置显示样式**/
+  align-items: center; /**子view垂直居中*/
+  vertical-align: center; /**垂直居中*/
+  justify-content: center; /**内容居中*/
+  flex-direction: row;
+  font-weight: bold;
+}
+
+.title_identity{
+  height: 400rpx;
+  width: 200rpx;  
+  background-color: khaki;
+  margin-top: -200rpx;
+  margin-left:500rpx;
+  border-radius: 20rpx;
+  display: flex; /*设置显示样式**/
+  align-items: center; /**子view垂直居中*/
+  vertical-align: center; /**垂直居中*/
+  justify-content: center; /**内容居中*/
+  flex-direction: row;
+  font-weight: bold;
+}
+
+.authorize{
+  height: 90rpx;
+  top: 60%;
+  width: 60%;
+  color: rgb(44, 160, 238);
+  background-color: rgb(235, 243, 118);
+  margin-top:50rpx;
+  margin-left:150rpx;
+  border: rgba(255, 255, );
+  text-align: center;
+  font-weight: bold;
+}
